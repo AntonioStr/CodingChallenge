@@ -1,0 +1,80 @@
+/* Style blocchi principali */
+
+body{
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  width: 1200px;
+  margin: auto;
+}
+
+.container {
+  padding: 100px;
+  border-radius: 20px;
+  position: relative;
+  background-color: rgba(0, 0, 0, .5);
+  top: 30px;
+}
+
+
+header {
+  text-align: center;
+  color: #01DD01;
+  font-size: 18px;
+}
+
+nav {
+  background-color: #01DD01;
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  color: white;
+}
+
+/* Style classi header e nav */
+
+.logo {
+  width: 250px;
+}
+
+#titoletto{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Style blocchi testo e barre carica */
+
+.monopattino > h2 {
+  display: inline-block;
+  margin-bottom: 1px;
+}
+
+.freccia:after {
+  content: "\21A6";
+}
+
+.distanza:before {
+  content: "- a ";
+}
+
+.stato-carica1, .stato-carica2, .stato-carica3 {
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.stato-carica1 {
+  background-color: #F5B453;
+  width: 35%;
+}
+
+.stato-carica2 {
+  background-color: #1EC31E;
+  width: 55%;
+}
+
+.stato-carica3 {
+  background-color: #BE4141;
+  width: 13%;
+}
